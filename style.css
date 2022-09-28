@@ -8,6 +8,22 @@
   --hospital-green: #acd9b2;
 }
 
+/* Estilos de body */
 body {
+  margin: 0;
   font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Estilos de buttom */
+.buttom {
+  background-color: var(--hospital-green);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
 }
