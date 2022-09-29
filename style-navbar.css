@@ -1,0 +1,112 @@
+
+/* * Variables de color */
+:root {
+  --white: #fff;
+  --black: #000;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+/* * Fin de estilos basicos */
+
+
+/* * Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* * Logo */
+.nav_figure {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_figure img {
+  width: 160px;
+}
+
+
+/* * Nav-main */
+.nav_ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_ul li {
+  padding: 15px;
+  margin: 0;
+  border: 2px solid var(--white);
+  color: var(--very-light-pink);
+  font-weight: 800;
+}
+
+.nav_ul li:hover {
+  border: 2px solid var(--hospital-green);
+  border-radius: 10px;
+}
+
+
+
+
+
+/* * Nav -right */
+.nav_aside {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav_aside li {
+  color: var(--very-light-pink);
+  margin: 0 10px;
+}
+.nav_aside li:last-child {
+  color: var(--white);
+}
+.nav_aside li span {
+  position: relative;
+  bottom: 24px;
+  right: 14px;
+  background-color: var(--hospital-green);
+  border-radius: 50%;
+  font-size: var(--md);
+  padding: 1px;
+}
+
+@media (max-width: 640px) {
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .nav_figure {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav_ul li {
+    display: none;
+  }
+
+  .nav_aside li {
+    padding: 0;
+    margin: 0;
+  }
+  .nav_aside {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
