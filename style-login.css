@@ -1,0 +1,112 @@
+
+/* * Variables de color */
+:root {
+  --white: #fff;
+  --black: #000;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+/* * Fin de estilos basicos */
+
+
+
+/* Contenedor de la página */
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+
+/* Contenedor del formulario */
+.login {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+
+
+
+/* Estilos del logo & titulo & subtitulo */
+.login_logo {
+  width: 180px;
+  margin-bottom: 48px;
+  justify-self: center;
+  /* display: none; */
+}
+
+/* @media (max-width: 640px) {
+  .login_logo {
+    display: block;
+  }
+} */
+
+
+
+/* Estilos del formulario */
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Estilo de label & input */
+form label {
+  font-size: var(--md);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input {
+  background-color: var(--text-input-field);
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  font-size: var(--md);
+  padding: 8px; 
+  margin-bottom: 16px;
+}
+
+
+/* Estilo <a> */
+.login a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+  text-decoration: none;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+
+
+/* Buttom login */
+.buttom-login {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* Bottom sign up */
+.buttom-signup {
+  text-align: center;
+  background-color: var(--white);
+  color: var(--hospital-green);
+  border: var(--hospital-green) solid 2px;
+  font-weight: bold;
+  padding: 4px 0;
+  box-sizing:border-box;
+  padding: 12px;
+}
+
+@media (max-width: 640px) {
+  .buttom-signup {
+    margin-top: 200px;
+    color: red;
+  }
+}
