@@ -1,0 +1,110 @@
+/* * Variables de color */
+:root {
+  --white: #fff;
+  --black: #000;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+/* * Fin de estilos basicos */
+
+
+
+/* * cabecera */
+.shop-head {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 15px;
+}
+
+.shop-head h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  position: relative;
+  top: -3px;
+}
+
+.shop-head figure img {
+  transform: scaleX(-1);
+  width: 15px;
+}
+
+
+
+/* * Cuerpo */
+.shop-list {
+  margin: 15px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.list-item figure {
+  margin: 0 0;
+  padding: 0;
+}
+
+.list-item figure img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+.list-item .item-title {
+  margin: 0 32px;
+}
+.list-item .item-cost {
+  position: absolute;
+  right: 10%;
+}
+
+img.commando {
+  width: 18px;
+  position: absolute;
+  right: 6%;
+}
+/* ! Corregir interior de .list-item */
+
+
+
+/* * Final */
+.shop-resume {
+  margin: 15px;
+  background-color: var(--very-light-pink);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  font-size: var(--md);
+  font-weight: 800;
+  margin-top: 60px;
+}
+.shop-resume .total {
+  /* margin: 0 50px; */
+  position: absolute;
+  left: 10%;
+}
+.shop-resume .price {
+  /* margin: 0 150px; */
+  position: absolute;
+  right: 10%;
+}
+
+div.final {
+  margin: 15px;
+}
+
+
+
+
+
+
+
